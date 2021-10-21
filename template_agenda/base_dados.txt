@@ -1,5 +1,4 @@
 CONTATOS
-id: INT (automático)
 nome: STR * (obrigatório)
 sobrenome: STR (opcional)
 telefone: STR * (obrigatório)
@@ -9,5 +8,4 @@ descricao: texto
 categoria: CATEGORIA (outro model)
 
  CATEGORIA
- id: INT
  nome: STR * (obrigatório)
