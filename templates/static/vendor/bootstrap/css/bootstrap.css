@@ -58,9 +58,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #04509c;
   text-align: left;
-  background-color: #fff;
+  background-color: rgb(5, 0, 0);
 }
 
 [tabindex="-1"]:focus {
@@ -152,6 +152,7 @@ sup {
   top: -.5em;
 }
 
+
 a {
   color: #007bff;
   text-decoration: none;
@@ -205,6 +206,7 @@ svg {
   vertical-align: middle;
 }
 
+
 table {
   border-collapse: collapse;
 }
@@ -212,13 +214,18 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color:#04509c;
   text-align: left;
   caption-side: bottom;
 }
 
 th {
+  color: #f76009;
   text-align: inherit;
+}
+
+tr {
+  color: #04509c;
 }
 
 label {
@@ -1514,14 +1521,14 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529;
+  color: #1d7fe2;
 }
 
 .table th,
 .table td {
   padding: 0.75rem;
   vertical-align: top;
-  border-top: 1px solid #dee2e6;
+  border-top: 2px solid #dee2e6;
 }
 
 .table thead th {
@@ -1556,7 +1563,7 @@ pre code {
 .table-borderless td,
 .table-borderless thead th,
 .table-borderless tbody + tbody {
-  border: 0;
+  border: 2;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
@@ -4174,7 +4181,7 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 3.25rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -4502,7 +4509,8 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #0477eb;
+  font-family: Arial Black, Helvetica, sans-serif;
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
