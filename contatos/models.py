@@ -21,6 +21,8 @@ class Contato(models.Model):
     descricao = models.TextField(blank=True)
     # comparando uma tabela com a outra
     categoria = models.ForeignKey(Categoria, on_delete=models.DO_NOTHING)
+    # campo verdadeiro ou falso iniciado em verdadeiro
+    mostrar = models.BooleanField(default=True)
 
     def __str__(self):
         return self.email
