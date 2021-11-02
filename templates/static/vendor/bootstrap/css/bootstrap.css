@@ -4848,7 +4848,10 @@ input[type="button"].btn-block {
   padding-left: 0;
   list-style: none;
   border-radius: 0.25rem;
+  background-color: #000000;
 }
+
+
 
 .page-link {
   position: relative;
@@ -4857,15 +4860,15 @@ input[type="button"].btn-block {
   margin-left: -1px;
   line-height: 1.25;
   color: #007bff;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  background-color: rgb(2, 2, 2);
+  border: 5px solid #dee2e6;
 }
 
 .page-link:hover {
   z-index: 2;
   color: #0056b3;
   text-decoration: none;
-  background-color: #e9ecef;
+  background-color: #080808;
   border-color: #dee2e6;
 }
 
@@ -4888,8 +4891,8 @@ input[type="button"].btn-block {
 
 .page-item.active .page-link {
   z-index: 1;
-  color: #fff;
-  background-color: #007bff;
+  color: rgb(12, 12, 12);
+  background-color: #080808;
   border-color: #007bff;
 }
 
@@ -4897,7 +4900,7 @@ input[type="button"].btn-block {
   color: #6c757d;
   pointer-events: none;
   cursor: auto;
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   border-color: #dee2e6;
 }
 

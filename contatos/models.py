@@ -18,7 +18,7 @@ class Contato(models.Model):
     email = models.CharField(max_length=255, blank=True)
     # campo com uma data, importar pacotes.
     data_criacao = models.DateTimeField(default=timezone.now)
-    descricao = models.TextField(blank=True)
+    descricao = models.TextField(max_length=300, blank=True)
     # comparando uma tabela com a outra
     categoria = models.ForeignKey(Categoria, on_delete=models.DO_NOTHING)
     # campo verdadeiro ou falso iniciado em verdadeiro
